@@ -1,0 +1,48 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	font-family: 'Oswald', sans-serif;
+}
+/* --START HEADER-- */
+
+#header-nav{
+	border-bottom: 1px solid black;
+	background: #636363;
+}
+#header-nav a{
+	margin-left: 10px;
+
+	color: black;
+	text-decoration: none;
+	font-weight: bold;	
+}
+
+button.navbar-toggle{
+	height: 40px;
+	width: 40px;
+	padding: 5px;
+
+	background: #636363;
+}
+.icon-bar, button.navbar-toggle{
+	border: 2px solid black;
+	margin: 2px;
+}
+
+/* --END HEADER -- */ 
+/*  --START BODY-- */
+section{
+	padding: 10px;
+}
+.dummy{
+	background: gray;
+	height: 1000px;
+
+	margin-top: 10px;
+	margin-bottom: 10px;
+	
+	overflow: hidden;
+}
+/* --END BODY-- */ 
