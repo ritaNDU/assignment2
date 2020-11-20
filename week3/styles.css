@@ -2,12 +2,17 @@
 	padding: 0;
 	margin: 0;
 }
+
 body{
 	font-family: 'Oswald', sans-serif;
 }
-/* --START HEADER-- */
 
+/* --START HEADER-- */
+header{
+	margin-bottom: 0;
+}
 #header-nav{
+	border-radius:0;
 	border-bottom: 1px solid black;
 	background: #636363;
 }
@@ -33,6 +38,13 @@ button.navbar-toggle{
 
 /* --END HEADER -- */ 
 /*  --START BODY-- */
+#our-menu{
+	/*Our Menu h1 title */
+	font-weight: 5;
+	font-size: 2em;
+	color: black;
+}
+/* Gray section in the middle */
 section{
 	padding: 10px;
 }
@@ -45,4 +57,14 @@ section{
 	
 	overflow: hidden;
 }
+#nav-list{
+	margin-top: 200px;
+}
+/* Menu List */
+#nav-list li{
+	background: white;
+	border: 1px solid black;
+	color: black;	
+}
+
 /* --END BODY-- */ 
