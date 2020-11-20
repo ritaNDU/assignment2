@@ -5,28 +5,41 @@
 
 body{
 	font-family: 'Oswald', sans-serif;
+	font-size: 1em;
 }
 
 /* --START HEADER-- */
 header{
-	margin-bottom: 0;
+	margin-bottom: -30px;
 }
 #header-nav{
+	position: relative;
+	width: 100%;
+	padding: 2px;
+
 	border-radius:0;
 	border-bottom: 1px solid black;
 	background: #636363;
 }
-#header-nav a{
-	margin-left: 10px;
+.navbar-brand{
+	position: absolute;
 
-	color: black;
+	top: 2.5%;
+	left: 1%;
+
 	text-decoration: none;
+	color: black;
 	font-weight: bold;	
 }
+ .navbar-brand:hover{
+ 	text-decoration: none;
+ 	color: black;
+ }
 
 button.navbar-toggle{
-	height: 40px;
-	width: 40px;
+	position: absolute;
+	top: 5%;
+	right:5%;
 	padding: 5px;
 
 	background: #636363;
@@ -35,14 +48,45 @@ button.navbar-toggle{
 	border: 2px solid black;
 	margin: 2px;
 }
+button.navbar-toggle:hover, button.navbar-toggle:focus{
+	background: white;
+}
+
+
+/* Menu List */
+#nav-list li a{
+	text-decoration: none;
+
+	clear: both;
+	width: 100%;
+	background: white;
+	border: 1px solid black;
+	color: black;	
+
+	text-align: center;
+}
+#nav-list li a:hover{
+	text-decoration: none;
+
+	background: black;
+	color: white;
+}
 
 /* --END HEADER -- */ 
 /*  --START BODY-- */
+section h3{
+	font-weight: 7;
+	font-weight: 1.2em;
+	margin-top: 0;
+	color: black;
+
+}
 #our-menu{
 	/*Our Menu h1 title */
-	font-weight: 5;
-	font-size: 2em;
+	font-weight: bold;
+	font-size: 1.5em;
 	color: black;
+	padding: 2px;
 }
 /* Gray section in the middle */
 section{
@@ -57,14 +101,6 @@ section{
 	
 	overflow: hidden;
 }
-#nav-list{
-	margin-top: 200px;
-}
-/* Menu List */
-#nav-list li{
-	background: white;
-	border: 1px solid black;
-	color: black;	
-}
+
 
 /* --END BODY-- */ 
